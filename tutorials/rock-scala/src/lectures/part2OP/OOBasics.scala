@@ -7,6 +7,8 @@ object OOBasics extends App {
   println(person.x)
   person.greet("Daniel")
   person.greet
+
+
 }
 
 // constructor
@@ -30,4 +32,7 @@ class Person(name: String, val age: Int) {
   def this() = this("John Doe")
 }
 
-// class parameters are NOT FIELDS
+
+
+
+
